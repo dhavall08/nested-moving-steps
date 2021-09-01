@@ -26,8 +26,6 @@ export const emptySubStep = () => ({
   uniqueKey: getUniqueNumber(),
   name: "Enter sub-step name",
   description: "Enter sub-step description",
-  files: [],
-  anyFlag: true,
 });
 
 // generator empty step when adding new step
@@ -43,10 +41,9 @@ export const initialState = {
   name: "Enter title",
   description: "Enter description",
   steps: [emptyStep()],
-  status: "active",
 };
 
-export default function roadmapReducer(state: any, { type, payload }: any) {
+export default function stateReducer(state: any, { type, payload }: any) {
   switch (type) {
     case CHANGE_VALUE: {
       const newState = update(state, {

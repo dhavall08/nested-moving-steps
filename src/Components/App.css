@@ -1,3 +1,32 @@
+button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
 .App {
   margin: 20px;
+}
+
+.ml-3 {
+  margin-left: 3rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .code {
+    position: fixed;
+    font-size: 12px;
+    top: 0;
+    right: 0;
+    overflow: auto;
+  }
 }
