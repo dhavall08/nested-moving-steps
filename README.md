@@ -4,6 +4,9 @@
 - Add/remove steps
 - Moving of steps
 
+## Demo
+[CodeSandbox Link](https://codesandbox.io/s/nested-moving-steps-3gvdy)
+
 ## Packages
 
 - [immutability-helper](https://github.com/kolodny/immutability-helper) (to update reducer state)
